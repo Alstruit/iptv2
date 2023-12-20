@@ -122,6 +122,8 @@ These scripts are created to automate routine processes in the repository and ma
 
 For scripts to work, you must have [Node.js](https://nodejs.org/en) installed on your computer.
 
+Run `npm ci` first before executing the scripts.
+
 To run scripts use the `npm run <script-name>` command.
 
 - `act:check`: allows to run the [check](https://github.com/iptv-org/iptv/blob/master/.github/workflows/check.yml) workflow locally. Depends on [nektos/act](https://github.com/nektos/act).
